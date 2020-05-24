@@ -10,7 +10,7 @@ import org.springframework.scheduling.annotation.EnableAsync;
 import java.util.concurrent.Executor;
 
 @Configuration
-@EnableAsync // 开启 @Async 的支持
+@EnableAsync // 开启 @Async 的支持,可以去掉启动类的@EnableAsync
 public class AsyncConfig implements AsyncConfigurer {
 
     @Autowired

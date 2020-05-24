@@ -99,7 +99,7 @@ public class DemoService {
 
     @Async
     public Integer zhaoDaoNvPengYou(Integer a, Integer b) {
-        throw new RuntimeException("程序员不需要女朋友");
+        throw new RuntimeException("已经是老婆啦");
     }
 
 }

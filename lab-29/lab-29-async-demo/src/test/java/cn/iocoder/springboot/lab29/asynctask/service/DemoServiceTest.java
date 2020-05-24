@@ -105,7 +105,7 @@ public class DemoServiceTest {
     }
 
     @Test
-    public void testZhaoDaoNvPengYou() throws InterruptedException {
+    public void testAsyncCatchException() throws InterruptedException {
         demoService.zhaoDaoNvPengYou(1, 2);
 
         // sleep 1 秒，保证异步调用的执行
