@@ -12,8 +12,7 @@
     <artifactId>lab-29</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>lab-29-async-demo</module>
-        <module>lab-29-async-two</module>
+        <module>my-lab-01-redisKey-demo</module>
     </modules>
 
 
